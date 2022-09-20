@@ -3,8 +3,8 @@ function prime(n){
     for(let i=1;i<=n;i++){
         if(n % i==0){
            fact++;
-}
-}
+           }
+        }
     if(fact==2){
         return true;
 }
@@ -16,3 +16,4 @@ if(x==true){
 } else {
     console.log("Not Prime");
 }
+
