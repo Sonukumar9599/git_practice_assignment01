@@ -1,19 +1,19 @@
-function prime(num){
-let counter=0;
-for(let i=1;i<=num;i++){
-if(num%i==0){
-counter++;
+function prime(n){
+    let fact=0;
+    for(let i=1;i<=n;i++){
+        if(n % i==0){
+           fact++;
+           }
+        }
+    if(fact==2){
+        return true;
 }
+        return false;
 }
-if(counter===2){
-return true;
+let x=prime(15);
+if(x==true){
+    console.log("Prime");
+} else {
+    console.log("Not Prime");
 }
-return false;
-}
-let answer =prime(13);
-if(answer== true){
-console.log("Prime");
-}
-else{
-console.log("Not prime");
-}
+
